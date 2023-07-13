@@ -1,0 +1,46 @@
+body {
+  background-color: whitesmoke;
+}
+.fa:before {
+  font-family: Font Awesome !important;
+  content: "\69" !important;
+}
+
+.content {
+  margin-left: 250px;
+}
+.content-small {
+  margin-left: 0;
+}
+.bars {
+  color: rgb(0, 0, 0);
+  display: block;
+  margin-left: 300px;
+
+  font-size: 30px;
+  visibility: hidden;
+  cursor: pointer;
+}
+.bars-close {
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+@media (max-width: 767px) {
+  .dashboard {
+    overflow: hidden;
+  }
+  .content {
+    width: 100%;
+  }
+  .content-small {
+    width: 100%;
+  }
+  .bars {
+    left: 270px;
+    visibility: visible;
+  }
+  .bars-close {
+    left: 22px;
+  }
+}

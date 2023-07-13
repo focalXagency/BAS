@@ -1,0 +1,25 @@
+.add-user .user-in {
+  width: 90%;
+  height: 40px;
+  margin: auto;
+  border: none;
+  outline-color: grey;
+}
+.add-user .user-in::placeholder {
+  color: black;
+}
+.add-user .user-btn {
+  width: 30%;
+  margin: auto;
+  border-radius: none;
+  margin-top: 10px;
+}
+.add-user .title {
+  font-weight: 500;
+  font-size: 39px;
+}
+@media (max-width: 767px) {
+  .add-user .user-btn {
+    width: 60%;
+  }
+}

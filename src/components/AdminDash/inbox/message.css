@@ -1,0 +1,27 @@
+.main-container {
+  margin-top: 10%;
+}
+.sub-row {
+  background-color: white;
+  margin-left: 10px;
+}
+.sub-row ul {
+  height: 100;
+  list-style: none;
+}
+.sub-row ul li {
+  margin: 20px 0;
+  color: grey;
+}
+.sub-row ul li h5 {
+  color: black;
+  margin-left: 10px;
+  display: inline-block;
+}
+.sub-row ul li h6 {
+  color: black;
+}
+
+.inbox .container{
+  width: 90%;
+}

@@ -1,0 +1,159 @@
+.container-customers {
+    width: 99% !important;
+    height: 402px !important;
+    margin-top: -316px;
+    margin-bottom: 323px;
+}
+.container-customers .company{
+    transform: translate(58.56vw, 50px);
+    width: 120px;
+    color: #2a1bbf;
+}
+.container-customers .Our-costomer-title{
+    font-size: 61px;
+    padding-top: 5px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    margin: 0 25%;
+}
+
+.container-customers .Our-costomer-desc{
+    font-size: 30px;
+    width: 50%;
+    margin-top: 5px !important;
+    margin-bottom: 20px !important;
+    text-align: center;
+    margin: 0 25%;
+}
+.container-customers .slider-customers{
+    margin-left:0% !important;
+    width: 100%;
+    padding: 2em;
+    min-height: 350px;
+    margin: 0em 4em 4em -0.7em;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container-customers .slider-customers .slick-list {
+    position: relative !important;
+    display: block !important;
+    overflow: hidden;
+    margin: 0px 45px 24px 13px !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+.container-customers .slider-customers .slick-prev:before, .slick-next:before {
+    display: none !important;
+}
+
+
+@media (max-width:1100px){
+    .container-customers {
+        width: 99% !important;
+        height: 383px !important;
+        margin-top: -279px;
+        margin-bottom: 323px;
+    }
+    .container-customers .slider-customers{
+        margin: 0em 0em 0em -0.7em;
+        padding: 0px;
+        margin: 10px;
+    }
+    .container-customers .company {
+    transform: translate(802px, 37px);
+    width: 120px;
+    color: #2a1bbf;
+}
+    .container-customers .slider-customers img{
+        width: 80px;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+    .container-customers .slick-track {
+        width: 7000px !important;
+        height: 100px !important;
+        margin: 20px;
+    }
+    .container-customers .Our-costomer-title{
+        font-size: 24px;
+    width: 52%;
+    }
+    
+    .container-customers .company{
+        transform: translate(153px, 27px);
+        width: 104px;
+    }
+    .container-customers .slider-customers .slick-list {
+        margin: 0px 0px 0px 0px !important;
+        width: 2100px !important;
+    }
+    .container-customers .Our-costomer-desc{
+        font-size: 18px;
+    }
+    .container-customers .slick-slide {
+        display: block !important;
+        justify-content: space-between !important;
+        width: 110px !important;
+    }
+    .container-customers .company {
+        transform: translate(1057px, 36px);
+        width: 120px;
+        color: #2a1bbf;
+    }
+}
+/* ////////////////////////////////////////////////////////////////////////////////// */
+@media (max-width:600px){
+    .container-customers {
+        width: 99% !important;
+        height: 383px !important;
+        margin-top: -279px;
+        margin-bottom: 323px;
+    }
+}
+/* ////////////////////////////////////////////////////////////////////////////////// */
+@media (max-width:400px){
+    .container-customers{
+        height: 65px !important;
+        margin-top: -87px;
+    }
+    .container-customers .slider-customers{
+        margin: 0em 0em 0em -0.7em;
+        padding: 0px;
+        margin: 10px;
+    }
+    .container-customers .slider-customers img{
+        width: 40px;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+    .container-customers  .slick-track {
+        width: 7000px !important;
+        height: 25px !important;
+        margin: 20px;
+    }
+    .container-customers .Our-costomer-title{
+        font-size: 24px;
+    }
+    
+    .container-customers .company{
+        font-size: 11px;
+        transform: translate(222px, 20px);
+    width: 106px;
+    }
+    .container-customers .slider-customers .slick-list {
+        margin: 0px 0px 0px 0px !important;
+        width: 336px !important;
+    }
+    .container-customers .Our-costomer-desc{
+        font-size: 12px;
+    }
+    .container-customers .slick-slide {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 110px !important;
+    }
+}

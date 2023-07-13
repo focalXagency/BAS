@@ -1,0 +1,34 @@
+.group {
+  position: fixed;
+  bottom: 3%;
+  right: 10%;
+  display: none;
+}
+.hide {
+  display: none;
+}
+.btn-group-vertical {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #383838;
+  display: none;
+  right: 0;
+}
+.exit {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.bottom-btn {
+  box-shadow: none;
+}
+.bottom-btn:hover {
+  background-color: white;
+  color: black;
+}
+@media (max-width: 767px) {
+  .group,
+  .btn-group-vertical {
+    display: block;
+  }
+}

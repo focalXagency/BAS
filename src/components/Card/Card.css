@@ -1,0 +1,21 @@
+.card-white {
+    border: none !important;
+
+}
+
+.card-img {
+    width: 51px;
+    height: 51px;
+    transform: translate(-18px, -5px);
+
+}
+
+.card .card-h3 {
+    font-size: 38px;
+}
+
+.card-p {
+    font-size: 15px;
+    text-align: justify;
+    padding-right: 47px !important;
+}

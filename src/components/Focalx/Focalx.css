@@ -1,0 +1,56 @@
+.focalx {
+    background-color: #1c1b1f !important;
+    margin-top: 112px;
+    margin-left: -12px !important;
+    height: 649px;
+    position: relative;
+}
+
+.focalx h1 {
+    color: #fffbfe;
+    font-size: 50px;
+    transform: translate(-177px, 40px);
+    transform: translate(86px, 50px);
+    z-index: 100000;
+    position: absolute;
+}
+
+.focalx .services {
+    color: #fffbfe;
+    font-size: 15px;
+    transform: translate(-245px, 37px);
+    z-index: 100000;
+    position: absolute;
+}
+
+.focalx .title-img {
+    width: 658px;
+    top: -5px;
+    left: 15px;
+    transform: translate(-43px, 0px);
+}
+
+.focalx .p2 {
+    color: #fffbfe;
+    font-size: 17px;
+    text-align: justify;
+    padding-right: 187px !important;
+    padding-left: 44px;
+    padding-top: 30px;
+}
+
+.focalx .name {
+    color: #fffbfe;
+    padding-top: 78px !important;
+    transform: translate(-265px, 10px);
+    padding-bottom: 19px;
+}
+
+.focalx .name span {
+    color: #fffbfe;
+}
+
+.readmore .right-img {
+    padding-left: 8px;
+    width: 27px;
+}

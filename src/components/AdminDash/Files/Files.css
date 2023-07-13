@@ -1,0 +1,35 @@
+.file-card {
+  background-color: transparent;
+  border: none;
+}
+.cards-container {
+  background-color: white;
+}
+.pagination {
+  margin-left: 60%;
+}
+.pagination-nav {
+  width: 90%;
+}
+.pagination ul li a {
+  border: none;
+}
+.page-link {
+  border: none;
+}
+.files-icon {
+  font-size: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.files-icon:hover {
+  transform: scale(1.1);
+}
+
+.cards-container label{
+  padding: 0 !important;
+}
+
+.cards-container label svg{
+  width:100%;;
+}

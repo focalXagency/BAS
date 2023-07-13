@@ -1,0 +1,9 @@
+.trash-btn {
+  border-bottom: 1px solid;
+  color: black;
+  background: transparent;
+  outline: none;
+}
+.pages {
+  margin: auto;
+}

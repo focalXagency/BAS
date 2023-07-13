@@ -1,0 +1,174 @@
+footer {
+    background-color: #1C1B1F;
+    color: #FFFBFE;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+}
+
+footer span {
+    font-size: 13px;
+    columns: #FFFBFE;
+}
+
+footer .footerTop {
+    /* gap: 38.3125%; */
+    padding: 48px 70px;
+    justify-content: space-between;
+}
+
+footer .footerTop h2 {
+    font-size: 31px;
+}
+
+footer .footerTop button {
+    background-color: transparent;
+    font-size: 16px;
+    padding: 8px 32px;
+    color: #FFFBFE;
+    border: 2px solid #FFFBFE;
+    width: 201px;
+    border-radius: 4px;
+}
+
+footer .footerTop input {
+    background-color: transparent;
+    outline: none;
+    width: 325px;
+    border: none;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+footer .footerBottom {
+    padding: 47px 70px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer .footerTop .mail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+footer .footerTop .mailSection {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    position: relative;
+}
+
+footer .footerTop .mailSection input{
+    width: 100%;   
+    color: white;
+}
+footer .footerTop .mailSection input::placeholder{
+    font-size: 12px; 
+}
+
+
+.logo {
+    width: 80px;
+}
+
+.mailImg {
+    width: 24px;
+    position: absolute;
+    right: 0;
+}
+
+footer .footerTop .contactWithUs h3 {
+    font-size: 20px;
+}
+
+
+@media(max-width:840px) {
+
+    footer .footerTop {
+        /* padding: 64px 5.12445% 47px 5.12445%; */
+
+        /* justify-content: space-between; */
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    footer .footerTop a img {
+        width: 24px;
+        height: 24px;
+    }
+
+    footer .footerTop .subscribe {
+        order: 1;
+    }
+
+    footer .footerTop .contactWithUs {
+        order: 2;
+    }
+
+    footer .footerTop .logoSection {
+        order: 3;
+        gap: 8px !important;
+    }
+
+    .logo {
+        width: 80px !important;
+    }
+
+    footer .footerTop h2 {
+        font-size: 20px;
+        /* font-weight: 500 !important; */
+
+    }
+
+    footer .footerTop span {
+        font-size: 12px;
+        font-weight: 300 !important;
+
+    }
+
+
+    footer .footerTop .mail {
+        width: 260px;
+        position: relative;
+        display: flex;
+        align-self: center;
+    }
+
+    footer .footerTop .contactWithUs h3 {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    hr {
+        display: none;
+    }
+
+
+    footer .footerBottom {
+        display: flex;
+        flex-direction: column;
+        padding: 0 !important;
+    }
+
+    
+    footer .footerBottom .footerImg {
+        display: none;
+    }
+
+    footer .footerBottom .footerImgMob {
+        display: flex !important;
+        order: 2;
+        width: 50.34px;
+    }
+
+    footer .footerBottom span {
+        font-size: 13px !important;
+    }
+}

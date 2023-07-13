@@ -1,0 +1,62 @@
+.cardreviews {
+    background-color: #fffbfe !important;
+    margin-top: 88px;
+    margin-left: 4.7395vw !important;
+    height: 359px;
+    position: relative;
+    width: 609px;
+    z-index: 100000;
+    box-shadow: 0px 3px 5px grey;
+    transition: transform 0.5s ease;
+}
+
+.cardreviews h1 {
+    color: #fffbfe;
+    font-size: 25px;
+    transform: translate(-175px, -53px);
+    font-weight: 100;
+}
+
+.cardreviews .profile-img {
+    transform: translate(-1px, 0px);
+    width: 347px;
+    height: 82px;
+}
+
+.cardreviews .services {
+    color: #fffbfe;
+    font-size: 12px;
+    transform: translate(-179px, -230px);
+}
+
+.cardreviews .p2 {
+    color: #1c1b1f;
+    font-size: 19px;
+    text-align: justify;
+    padding-right: 0px;
+    padding-left: 146px;
+    padding-top: -33px !important;
+    transform: translate(-103px, -221px);
+}
+
+.cardreviews .name {
+    color: #1c1b1f;
+    padding-top: 78px !important;
+    transform: translate(83px, -89px);
+    padding-bottom: 19px;
+}
+
+.cardreviews .name .profile2-img {
+    width: 161px;
+    transform: translate(-42px, -243px);
+}
+
+.cardreviews .readmore {
+    transform: translate(206px, -142px);
+}
+
+.cardreviews .readmore .right-img {
+    padding-right: 20px !important;
+    width: 39px !important;
+    transform: translate(375px, -21px);
+}

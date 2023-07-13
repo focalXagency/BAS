@@ -1,0 +1,125 @@
+.faq {
+    max-width: 100vw !important;
+    height: 890px !important;
+    margin-top: -263px !important;
+    position: relative;
+}
+
+.container-faqs {
+    margin-left: 36px;
+    margin-top: 51px;
+    width: 111%;
+}
+
+.faq h1 {
+    transform: translate(0px, -36px);
+    font-size: 61px;
+    font-weight: bolder;
+}
+
+.faq .title-p {
+    transform: translate(0px, -46px);
+    font-size: 25px;
+    padding-right: 175px !important;
+    padding-left: 182px;
+
+}
+
+.container-faqs .accordion-item {
+    margin-bottom: 20px;
+    border: none !important;
+}
+
+.container-faqs .accordion-header {
+    margin-bottom: 20px;
+    border: none !important;
+}
+
+.container-faqs .accordion-header button {
+    font-size: 39px !important;
+    font-weight: bold;
+}
+
+.accordion-button::after {
+    content: '' !important;
+    background-image: url(../images/caroselblack.png) !important;
+    color: black !important;
+}
+
+.container-faqs .card-p {
+    font-size: 17px;
+    text-align: justify;
+    padding-right: 16px !important;
+    margin-left: 1px;
+    margin-bottom: 0rem !important;
+}
+
+.accordion-button{
+    background: none !important;
+}
+
+@media screen and (min-width: 350px) and (max-width : 667px) {
+    .faq {
+        max-width: 100vw !important;
+        height: 890px !important;
+        margin-top: -470px !important;
+        position: relative;
+    }
+
+    .faq h1 {
+        transform: translate(-2px, -37px) !important;
+        font-size: 43px !important;
+    }
+
+    .faq .title-p {
+        transform: translate(0px, -40px);
+        font-size: 15px;
+        padding-right: 278px !important;
+        padding-left: 389px;
+        width: 987px;
+    }
+
+    .container-faqs {
+        margin-left: 6px;
+        margin-top: -121px;
+        width: 97% !important;
+    }
+
+    .container-faqs .accordion-header button {
+        font-size: 20px !important;
+        font-weight: bold;
+    }
+
+    .container-faqs .card-p {
+        font-size: 17px;
+        text-align: justify;
+        padding-right: 27px !important;
+        margin-left: 1px;
+        margin-bottom: 0rem !important;
+        padding-bottom: 40px;
+    }
+
+    .container-faqs .accordion-item {
+        margin-bottom: -23px;
+        border: none !important;
+    }
+
+    .container-faqs .accordion2,
+    .accordion2-btn {
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (min-width: 668px) and (max-width : 1366px) {
+    .container-faqs {
+        margin-left: 4.6749vw;
+        margin-top: -54px;
+        width: 111%;
+    }
+    .faq h1 {
+        transform: translate(0px, 6px);
+        font-size: 61px;
+        font-weight: bolder;
+    }
+
+}

@@ -1,0 +1,181 @@
+.contactUsLabel h1{
+    font-size: 61px !important;
+    font-weight: 800 !important;
+}
+.contactUsLabel p{
+    font-size: 25px !important;
+}
+
+.contactUs {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1C1B1F;
+    width: 625px;
+    margin: 68px auto 96px auto;
+    padding: 56px 90px;
+  
+}
+
+.contactusForm {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 32px;
+}
+
+
+
+.contactusForm div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+
+.contactUs .contactusForm input , .contactUs .contactusForm textarea{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #383838;
+    width: 100%;
+    color: white;
+    padding-top: 8px;
+}
+
+.contactUs .contactusForm textarea::placeholder{
+    position: absolute;
+    top: 50%;
+}
+
+.contactUs .contactusForm textarea{
+   line-height: 100%;
+}
+
+
+.contactusForm input::placeholder , .contactusForm textarea::placeholder {
+    color: #A7A7A7;
+    font-size: 13px;
+}
+
+
+
+.contactusForm h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.contactusForm p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.servInput {
+    position: relative;
+}
+
+.servInput .servImg {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 0px;
+    top: 60%;
+    cursor: pointer;
+}
+
+.servInput .hideServImg {
+    display: none;
+}
+
+.servInput .servImgclose {
+    /* rotate: -45deg; */
+    display: none;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 0px;
+    top: 60%;
+    cursor: pointer;
+}
+
+.servInput .showServImgClose {
+    display: flex;
+}
+
+.Sbtn {
+    padding: 15px 86px;
+    width: 213px;
+    font-size: 16px;
+    background-color: #FFFBFE;
+    border-radius: 4px;
+    border: none;
+}
+
+
+
+.contactUs .contactusForm .services h6 {
+    cursor: pointer;
+    color: #FFFBFE;
+    padding: 10px ;
+
+}
+
+.contactUs .contactusForm .services h6:hover {
+    background-color: #F4F4F4;
+    color: black;
+}
+
+.contactUs .contactusForm .services {
+    display: none;
+    padding: 20px;
+    background-color: #383838;
+    position: absolute;
+    gap: 8px;
+    right: 0%;
+    top: 100%;
+    width:100%;
+}
+
+.contactUs .contactusForm .noServices {
+    display: block;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+@media(max-width:620px) {
+
+    .contactUsLabel h1{
+        font-size: 24px !important;
+        font-weight: 800 !important;
+    }
+    .contactUsLabel p{
+        font-size: 13px !important;
+    }
+    
+    .contactUs {
+
+        width: 320px;
+        margin: 24px auto 80px auto;
+        padding: 36px 29px;
+    }
+
+    .contactusForm {
+        gap: 16px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+    }
+
+
+    .Sbtn {
+        padding: 7.92px 31.84px;
+        width: 200px;
+    }
+
+}

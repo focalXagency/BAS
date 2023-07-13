@@ -1,0 +1,444 @@
+.Whatwedo {
+    max-width: 100vw !important;
+    height: 100vw !important;
+    position: relative;
+    z-index: 0 !important;
+    margin-top: 621px;
+}
+
+.Whatwedo h1 {
+    color: #1c1b1f !important;
+    transform: translate(0px, 46px) !important;
+    font-size: 61px !important;
+    font-weight: 800;
+}
+
+.Whatwedo img {
+    position: absolute;
+    right: 0;
+    top: 56px;
+}
+
+.Whatwedo .title-p {
+    font-size: 25px;
+    padding-right: 222px !important;
+    padding-left: 222px;
+    margin-bottom: 68px;
+}
+
+.Whatwedo .contaier-slider1 {
+    margin-top: 449px;
+    width: 98% !important;
+    height: 353px !important;
+    margin-right: 216px;
+    z-index: 999999 !important;
+}
+
+.Whatwedo .contaier-slider2 {
+    margin-top: 449px;
+    width: 98% !important;
+    height: 353px !important;
+    z-index: 999999 !important;
+}
+
+.Whatwedo .container-slider3 {
+    display: none;
+}
+
+.Whatwedo .slick-slider {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.Whatwedo .slick-slider .slick-track,
+.Whatwedo .slick-slider .slick-list {
+    transform: translate3d(0, 0, 0);
+    width: 99%;
+}
+
+.Whatwedo .contaier-slider2 .card-wight,
+.Whatwedo .contaier-slider1 .card-wight {
+    border: none !important;
+    margin-left: -20px !important;
+    height: 366px;
+    width: 371px;
+    transform: translateY(-7.7041vh);
+    border-radius: 0;
+}
+
+.Whatwedo .contaier-slider1 .card-wight {
+    transform: translateY(0);
+}
+
+.Whatwedo .contaier-slider2 .vr,
+.Whatwedo .contaier-slider1 .vr {
+    display: inline-block !important;
+    align-self: stretch;
+    width: 1px;
+    min-height: 16em;
+    background-color: currentcolor;
+    opacity: .25;
+    transform: translate(12.2986vw, -348px);
+}
+
+.Whatwedo .contaier-slider1 .vr {
+    transform: translate(12.2986vw, -300px);
+}
+
+.Whatwedo .contaier-slider2 .card-img,
+.Whatwedo .contaier-slider1 .card-img {
+    width: 114px;
+    height: 114px;
+    transform: translate(-132px, -26px);
+
+}
+
+.Whatwedo .contaier-slider2 .card-h3,
+.Whatwedo .contaier-slider1 .card-h3 {
+    font-weight: 600;
+    font-size: 37px !important;
+    width: 100%;
+    text-align: center;
+    transform: translateY(91px);
+}
+
+.Whatwedo .contaier-slider2 .card-p,
+.Whatwedo .contaier-slider1 .card-p {
+    font-size: 13px;
+    padding: 0px 28px 0px 58px !important;
+    color: #1c1b1f;
+    text-align: center;
+    transform: translate(-17px, -17px) !important;
+
+}
+
+.Whatwedo .cont-slider {
+    z-index: 9999999;
+    height: 600px !important;
+    position: absolute;
+}
+
+.Whatwedo .slick-dots {
+    position: static;
+    display: block !important;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.Whatwedo .slick-prev {
+    left: -25px;
+    display: none !important;
+}
+
+.Whatwedo .slick-next {
+    left: -25px;
+    display: none !important;
+}
+
+.Whatwedo .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #2a1bb8 !important;
+}
+
+.Whatwedo .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: rgb(83, 80, 80) !important;
+}
+
+
+/* responsive */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 360px) and (max-width : 667px) {
+    .Whatwedo {
+        max-width: 100vw !important;
+        height: 100vw !important;
+        position: relative;
+        z-index: 0 !important;
+        margin-top: 22.5734vh;
+    }
+
+    .Whatwedo h1 {
+        transform: translate(-27px, 650px) !important;
+        width: 120%;
+        font-size: 31px !important;
+        font-weight: bolder;
+    }
+
+    .Whatwedo .title-p {
+        transform: translate(-283px, 599px) !important;
+        font-size: 14px;
+        padding-right: 193px !important;
+        padding-left: 268px;
+        width: 243%;
+    }
+
+    .Whatwedo .slick-list{
+        background-color: white;
+    }
+
+    .Whatwedo .contaier-slider1,
+    .Whatwedo .contaier-slider2 {
+        display: none !important;
+    }
+
+    .Whatwedo .slick-dots {
+        display: none;
+    }
+
+    .Whatwedo .container-slider3 {
+        display: inline-block !important;
+        margin-top: 449px;
+        width: 90% !important;
+        height: 450px !important;
+        transform: translate(-2px, 86px) !important;
+        overflow: hidden !important;
+        z-index: 999999 !important;
+
+    }
+
+    .Whatwedo .container-slider3 .card-wight {
+        border: none !important;
+    transform: translate(280px, 12px);
+    width: 100%;
+        height: 27px;
+    }
+
+    .Whatwedo .container-slider3 .slick-slider {
+        transform: translate(1px, 0px);
+        border: 5px solid;
+        height: 409px;
+    }
+
+    .Whatwedo .container-slider3 .slick-list {
+        height: 399px;
+    }
+
+    .Whatwedo .container-slider3 .card-img {
+        width: 112px !important;
+        height: 112px !important;
+    transform: translate(-85px, -53px) !important;
+    }
+
+    .Whatwedo .container-slider3 .card-h3 {
+        font-size: 24px !important;
+        transform: translate(6.923vw, 58px) !important;
+        font-weight: bold;
+
+    }
+
+    .Whatwedo .container-slider3 .card-p {
+        margin: auto;
+        width: 86.4651%;
+        font-size: 15px;
+        text-align: justify;
+        padding-right: 24px !important;
+        padding-top: 60px;
+        padding-left: 21px;
+    }
+  
+
+      .Whatwedo .contaier-slider2 .vr,
+      .Whatwedo .contaier-slider1 .vr {
+        display: none !important;
+    }
+
+    .Whatwedo .container-slider3 .slick-dots {
+        display: block !important;
+        transform: translate(1px, 18px) !important;
+    }
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 668px) and (max-width : 1366px) {
+    .Whatwedo {
+        max-width: 100vw !important;
+        height: 100vw !important;
+        position: relative;
+        z-index: 0 !important;
+        margin-top: 697px;
+    }
+
+    .container-slider3 {
+        display: none;
+    }
+
+    .contaier-slider1  , .contaier-slider2{
+        transform: translate(79.8521vw, -448px) !important;
+        
+    }
+
+    .container-slider3 {
+        display: none;
+    }
+
+    .contaier-slider2 .card-wight,
+    .contaier-slider1 .card-wight {
+        transform: translateY(2.9947vh);
+        border: none !important;
+        margin-left: -20px !important;
+        height: 353px;
+        width: 368px;
+
+    }
+
+    .contaier-slider2 .vr,
+    .contaier-slider1 .vr {
+        display: inline-block !important;
+        align-self: stretch;
+        width: 1px;
+        min-height: 16em;
+        background-color: currentcolor;
+        opacity: .25;
+    transform: translate(168px, -358px);
+    }
+
+    .contaier-slider2 .card-img,
+    .contaier-slider1 .card-img {
+        width: 114px;
+        height: 114px;
+        transform: translate(-129px, -89px);
+
+    }
+
+    .contaier-slider2 .card-p,
+    .contaier-slider1 .card-p {
+        font-size: 13px;
+        padding: 0px 28px 0px 58px !important;
+        color: #1c1b1f;
+        text-align: center;
+        transform: translate(-17px, -62px) !important;
+
+    }
+    .slick-dots li.slick-active button:before {
+        opacity: .75;
+        color: #000;
+        border: 1px solid;
+        border-radius: 10px;
+    }
+    
+    .contaier-slider1 .slick-slider .slick-list , .contaier-slider2 .slick-slider .slick-list{
+        height: 626px !important;
+       }
+       .Whatwedo .slick-dots{
+        transform: translate(-14px, -415px) !important;
+       }
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+ 
+ 
+ @media screen and (min-width: 1367px) and (max-width : 1940px) {
+    .Whatwedo{
+        margin-top: 94.4444vh !important;
+    }
+    .Whatwedo h1 {
+       
+        margin: auto;
+         font-size: 89px !important;
+     }
+ 
+     .Whatwedo .title-p {
+         margin: auto;
+         font-size: 39px;
+         transform: translate(-17px, 1px);
+     }
+ 
+     .Whatwedo .container-slider3 {
+         display: none;
+     }
+
+     .Whatwedo .contaier-slider1 ,.Whatwedo .contaier-slider2 {
+        margin-top: 449px;
+        width: 56vw !important;
+        height: 369px !important;
+        margin-right: 98px;
+        transform: translate(10px, -378px) !important;
+        overflow: hidden !important;
+        z-index: 999999 !important;
+        box-shadow: 0px 2px 5px grey;
+        margin-left: 11.4583vw;
+     }
+
+    .container-slider3 {
+        display: none;
+    }
+ 
+     .Whatwedo .contaier-slider2 .card-wight,
+     .Whatwedo .contaier-slider1 .card-wight {
+        height: 74%;
+        transform: translateY(-50px);
+        }
+
+        .Whatwedo .contaier-slider2 .card-img, .Whatwedo .contaier-slider1 .card-img {
+            transform: translate(-132px, -45px);
+        }
+
+        .Whatwedo .contaier-slider2 .card-p, .Whatwedo .contaier-slider1 .card-p {
+            transform: translate(-17px, -38px) !important;
+        }
+
+     .contaier-slider2 .vr,
+     .contaier-slider1 .vr {
+         display: inline-block !important;
+         align-self: stretch;
+         width: 1px;
+         min-height: 16em;
+         background-color: currentcolor;
+         opacity: .25;
+         transform: translate(176px, -351px);
+     }
+ 
+     .contaier-slider2 .card-img,
+     .contaier-slider1 .card-img {
+        width: 114px;
+        height: 114px;
+        transform: translate(-129px, -82px);
+ 
+     }
+ 
+     .contaier-slider2 .card-p,
+     .contaier-slider1 .card-p {
+        font-size: 13px;
+        padding: 0px 28px 0px 58px !important;
+        color: #1c1b1f;
+        text-align: center;
+        transform: translate(-17px, -66px) !important;
+ 
+     }
+     .slick-dots li.slick-active button:before {
+         opacity: .75;
+         color: #000;
+         border: 1px solid;
+         border-radius: 10px;
+         /* padding: 7px 10px; */
+     }
+     
+ 
+    /*  .slick-track {
+         width: 80% !important;
+         opacity: 1;
+         transform: translate3d(0px, 0px, 0px) !important;
+         transition: -webkit-transform 500ms ease 0s;
+     } */
+     .contaier-slider1 .slick-slider .slick-list , .contaier-slider2 .slick-slider .slick-list{
+         height: 626px !important;
+        }
+        .Whatwedo .slick-dots {
+            display: block !important;
+            transform: translate(-14px, -363px) !important;
+        }
+ 
+   
+   }

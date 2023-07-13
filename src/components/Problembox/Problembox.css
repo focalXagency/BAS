@@ -1,0 +1,31 @@
+.problem-box {
+    background-color: #1c1b1f !important;
+    margin-top: 12px;
+    margin-left: -12px !important;
+/*     height: 649px !important; */
+    position: relative;
+}
+
+.text-prof .problem-box h1 {
+    color: #1c1b1f;
+    font-size: 47px !important;
+    transform: translate(86px, 50px);
+    z-index: 100000;
+    position: absolute;
+}
+
+.text-prof .title-img {
+    width: 658px;
+    top: -5px;
+    left: 15px;
+    transform: translate(-43px, 0px);
+}
+
+.text-prof .problem-box .p2 {
+    color: #fffbfe;
+    font-size: 23px !important;
+    text-align: justify;
+    padding-right: 174px !important;
+    padding-left: 85px !important;
+    padding-top: 67px !important;
+}
