@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BAS/static/css/main.f1858102.css",
+    "main.css": "/BAS/static/css/main.a025087c.css",
     "main.js": "/BAS/static/js/main.7fc8a76f.js",
     "static/js/787.d108c003.chunk.js": "/BAS/static/js/787.d108c003.chunk.js",
     "static/media/Mask group (1).svg": "/BAS/static/media/Mask group (1).c92128104ea0fc9b63a9d42050c56529.svg",
@@ -34,12 +34,12 @@
     "static/media/Vector.svg": "/BAS/static/media/Vector.5f7fbd30d32472123f052af8c8d40a7a.svg",
     "static/media/plus.svg": "/BAS/static/media/plus.02f19ad46e0cb07341045a189d47dc95.svg",
     "static/media/Vector1.svg": "/BAS/static/media/Vector1.265927bcc107819fee56f383f09c6a94.svg",
-    "main.f1858102.css.map": "/BAS/static/css/main.f1858102.css.map",
+    "main.a025087c.css.map": "/BAS/static/css/main.a025087c.css.map",
     "main.7fc8a76f.js.map": "/BAS/static/js/main.7fc8a76f.js.map",
     "787.d108c003.chunk.js.map": "/BAS/static/js/787.d108c003.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1858102.css",
+    "static/css/main.a025087c.css",
     "static/js/main.7fc8a76f.js"
   ]
 }
