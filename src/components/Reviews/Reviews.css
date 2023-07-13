@@ -44,7 +44,7 @@
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
     width: 200% !important;
-    margin-left: 0px;
+    margin-left: -150px;
     transform: translate(-181px, 10px);
 /*     padding: 0px 60px;
  */}
@@ -114,6 +114,10 @@
         width: 289%;
     }
 
+    .container-show .slick-list {
+        margin-left: 0;
+    }
+    
     .reviews .more {
         transform: translate(49px, -361px) ;
         font-size: 18px !important;

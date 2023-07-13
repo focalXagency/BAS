@@ -68,6 +68,7 @@ nav .nav-btnlg{
     font-size: 14px;
     padding: 8px 16px;  
     font-weight: 500;
+    border-radius: 2px !important;
 }
 @media only screen and (min-width : 350px) and (max-width:667px) {
     .container-nav {
