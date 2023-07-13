@@ -192,7 +192,7 @@
     }
     .reviews .activeSlide {
         transform: scale(1) !important;
-        /* margin-right: -90px;  */
+        margin-right: -90px; 
       }
 }
 
@@ -219,7 +219,7 @@
   
   .reviews .activeSlide {
     transform: scale(1.25);
-    margin-right: -90px; 
+    margin-right: 23px; 
   }
 
   .reviews .slick-slide {  
